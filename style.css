@@ -1,0 +1,906 @@
+/* font link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+
+section , header {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* primary-button */
+.primary-button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/*Header  style start */
+/* navbar */
+.site-logo-taitel {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.site-taitel {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.travel-color {
+    color: #FF5400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-manu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-manu>li {
+    list-style: none;
+    margin-right:10px;
+}
+
+.nav-manu>li>a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: 0.4s ease;
+    padding: 10px 0px;
+}
+
+.nav-manu>li :hover {
+    color: #FF5400;
+}
+.toggle{
+    display: none;
+}
+
+/* Navbar style End */
+/* Banner section style start*/
+.banner-section {
+    background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./Images/Group\ 13\ \(1\)\ \(1\).png'), url('linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 50px auto 100px;
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-blend-mode: lighten;
+    border-radius: 16px;
+
+    /* margin-top: 50px; */
+
+}
+
+.banner-taitel {
+    color: #FFF;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.banner-section p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 676px;
+    margin: 24px auto;
+
+}
+
+.banner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.inpute-section {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.501);
+    padding: 16px;
+
+}
+
+.inpute-section input,
+button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+
+}
+
+.inpute-section {
+    display: flex;
+    gap: 20px;
+}
+
+input::placeholder {
+    padding: 5px 12px;
+    margin: 5px;
+}
+
+.when {
+    position: relative;
+}
+
+.when i {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #131318;
+
+}
+
+.btn {
+    position: relative;
+}
+
+.btn i {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    color: #FFF;
+}
+
+/* Banner section style End*/
+/*  Our Popular Tours section start */
+.popular-tousr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.popular-tousr-content {
+    padding-right: 50px;
+    width: 50%;
+}
+
+.popular-tousr-content h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tousr-content p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.popular-tours-img {
+    width: 50%;
+}
+
+.popular-tours-img img {
+    width: 100%;
+}
+
+/*  Our Popular Tours section end */
+/* Choose Your Destination section style start */
+.img-gallery-content {
+    width: 70%;
+    margin: 100px auto 48px;
+    text-align: center;
+}
+
+.img-gallery-content h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.img-gallery-content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.img-gallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+
+}
+
+.img-gallery img {
+    width: 100%;
+    height: 300px
+}
+
+.img-1 {
+    grid-column: 1 / span 6;
+
+
+}
+
+.img-gallery div {
+    position: relative;
+}
+
+.img-gallery p {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-2 {
+    grid-column: 7 / span 6;
+
+
+}
+
+.img-3 {
+    grid-column: 1 / span 4;
+
+}
+
+.img-4 {
+    grid-column: 5 / span 5;
+
+}
+
+.img-5 {
+    grid-column: 10 / span 3;
+
+}
+
+.img-6 {
+    grid-column: 1 / span 6;
+
+}
+
+.img-7 {
+    grid-column: 7 / span 6;
+
+
+}
+
+/* Choose Your Destination section end  */
+/* Why Choose Us section style  start */
+.Choose-us-content h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 100px auto 0;
+}
+
+.Choose-us-content p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 643px;
+    margin: 24px auto 48px;
+
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+
+.card {
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.card h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 16px auto;
+}
+
+.card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    width: 486px;
+}
+
+.card-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* Why Choose Us section style  end */
+/* Deals & Discounts section style start */
+.Discounts {
+    background-image: url('./Images/Group\ 39.png');
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 56px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Deals-Discounts {
+    margin: 100px auto 24px;
+}
+
+.Deals-Discounts h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Deals-des {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 643px;
+    margin: 24px auto 48px;
+
+}
+
+
+.icon>span>i {
+    margin-right: 8px;
+    color: #FF5400;
+    width: 24px;
+    height: 24px;
+
+}
+
+.icon>span>small {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icon>span {
+    margin-right: 24px;
+}
+
+.book-now-card {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+}
+
+.tour h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 18px auto;
+}
+
+.tour p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.tour h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.Discounts-2nd {
+    background-image: url('./Images/Group\ 40.png');
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 56px;
+    margin: 24px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.packages {
+    text-align: center;
+    margin: 60px auto 100px;
+}
+
+/* Deals & Discounts section end */
+/*  Perfect Place sectionn  start */
+.perfect-place {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfect-place-content h2 {
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.perfect-place-content p {
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.perfect-place-content>ul>li {
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.video {
+    width: 610px;
+    height: 524px;
+    position: relative;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.video h3 {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+/* Perfect Place sectionn  end */
+
+/* newsletter-section style start */
+.newsletter-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.newsletter-from {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.newsletter-section h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.newsletter-from p {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.newsletter-from input {
+    width: 393px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-from button {
+    width: 393px;
+    height: 52px;
+
+}
+.newsletter-img{
+    width: 672px;
+height: 422px;
+}
+.newsletter-img img{
+width: 100%;
+height: 100%;
+}
+
+/* newsletter-section style end */
+/* discovers start */
+.discovers >p > i{
+    font-size: 50px;
+    color: #FF5400;
+    margin: 50px auto 20px;
+    width: 100%;
+ 
+    
+}
+.discovers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.discover{
+    background-image:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('Images/44902.jpg');
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.discover h2{
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+    color:#FFF;
+}
+.discover P{
+    font-size: 20px;
+    font-weight: 500;
+    text-align:center;
+   
+    color:#FFF;
+}
+.discover >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.discover > div >i{
+    color: #FF5400;
+    font-size: 50px;
+}
+/* discovers end */
+/* footer style start */
+footer{
+    max-width: 1440px;
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+margin:100px auto 0px ;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+gap: 15px;
+}
+footer p{
+    width: 769px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+footer i {
+   
+    font-size: 24px;
+    margin-right: 15px;
+    color:#131318 ;
+
+}
+.footer-hr{
+    width: 80%;
+    margin: 50px auto;
+    background: rgba(19, 19, 24, 0.10);
+
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+
+    .site-taitel {
+        font-size: 21px;
+    }
+
+    .nav-manu {
+        display: none;
+    }
+    .toggle-btn > li > a{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .toggle{
+        display: inline-block;
+    }
+    .toggle-btn > li {
+       list-style: none;
+    }
+    .toggle:hover .toggle-btn{
+        display: inline-block;
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        background-color: #4f1f0674;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+    }
+    nav,
+    .popular-tousr {
+        width: 90%;
+        padding: 10px;
+        margin: 0px auto;
+    }
+
+    .banner-section {
+        height: 100%;
+        width: 90%;
+        padding: 24px;
+        margin: 0 auto;
+
+    }
+
+    .banner-taitel {
+        font-size: 1.30rem;
+    }
+
+    .banner-section p {
+        font-size: 14px;
+    }
+
+    .inpute-section {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .inpute-section input,
+    .btn>button {
+        width: 100%;
+    }
+
+    .btn i {
+        left: 30%;
+        top: 20px;
+    }
+
+    /* Header section end */
+    /* Our Popular Tours section start */
+    .popular-tousr {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .popular-tousr-content {
+        width: 100%;
+    }
+
+    .popular-tours-img {
+        width: 100%;
+    }
+
+    /* Our Popular Tours section end */
+    /*  Choose Your Destination section start */
+    .choose-your-destination {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-gallery {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .img-gallery div {
+        grid-column: 1;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .img-gallery-content h2 {
+        font-size: 20px;
+    }
+
+    .img-gallery-content p {
+        font-size: 14px;
+    }
+
+    .img-gallery>div>p {
+        font-size: 20px;
+    }
+
+    .Choose-us-content h2 {
+        font-size: 20px;
+    }
+
+    .Choose-us-content p {
+        width: 450px;
+        font-size: 14px;
+        width: 271px;
+    }
+
+
+    .icon>span {
+        margin-right: 8px;
+    }
+
+    .card {
+        width: 90%;
+        height: 289px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+        width: 271px;
+    }
+
+    .Deals-Discounts>div>p {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .Discounts,
+    .Discounts-2nd {
+
+        width: 90%;
+        height: 500px;
+        margin: 24px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Discounts-2nd {
+
+
+
+        padding: 10px;
+    }
+
+    .book-now-card {
+        margin-left: 50px;
+    }
+
+    .book-card-2 {
+        margin-right: 50px;
+        padding: 10px;
+        padding: 20px;
+
+
+    }
+
+    /*Perfect Place sectionn  start  */
+    .perfect-place {
+        flex-direction: column;
+    }
+
+    .perfect-place-content {
+        width: 90%;
+        margin: 16px auto;
+    }
+
+    .perfect-place-content h2 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .perfect-place-content p {
+        font-size: 14px;
+        width: 90%;
+
+    }
+
+    .perfect-place-content>ul>li {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .video {
+        width: 90%;
+    }
+    /* newsletter-section style start */
+    .newsletter-from input {
+       width: 100%;
+    }
+    .newsletter-from button {
+        width: 100%;
+    
+    
+    }
+    .newsletter-from{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .newsletter-section{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .newsletter-img{
+   width: 90%;
+}
+.discovers >p > i{
+    font-size: 30px;
+    color: #FF5400;
+    margin: 50px auto 20px;
+    display: block;
+    
+}
+
+.discover{
+    width: 90%;
+    margin: 20px auto 40px;
+}
+.discover h2{
+    font-size: 32px;
+}
+.discover P{
+    font-size: 16px;
+
+}
+
+footer{
+  width: 100%;  
+  margin: 0 auto;
+}
+footer p{
+    width:70%;
+}
+}
